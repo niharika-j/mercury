@@ -20,28 +20,28 @@ function HomePage() {
 
     let approachList = [
         {
-        text: "Research",
-        imgSrc: projectApproachResearch,
-        alt: "Kyle and Lauren conducting Think Aloud Protocol session at the mall",
-        link: true,
-        url: "",
-        linkText: "Learn more"
+            text: "Research",
+            imgSrc: projectApproachResearch,
+            alt: "Kyle and Lauren conducting Think Aloud Protocol session at the mall",
+            link: true,
+            url: "",
+            linkText: "Learn more"
         },
         {
-        text: "Ideating and Prototyping",
-        imgSrc: projectApproachIdeatingPrototyping,
-        alt: "Papers with initial prototype sketches",
-        link: true,
-        url: "",
-        linkText: "Learn more"
+            text: "Ideating and Prototyping",
+            imgSrc: projectApproachIdeatingPrototyping,
+            alt: "Papers with initial prototype sketches",
+            link: true,
+            url: "",
+            linkText: "Learn more"
         },
         {
-        text: "Final Products",
-        imgSrc: projectFinalProduct,
-        alt: "Laptop with merchant application open and mobile screen with consumer app open",
-        link: true,
-        url: "",
-        linkText: "Learn more"
+            text: "Final Products",
+            imgSrc: projectFinalProduct,
+            alt: "Laptop with merchant application open and mobile screen with consumer app open",
+            link: true,
+            url: "",
+            linkText: "Learn more"
         }
     ];
 
@@ -63,7 +63,8 @@ function HomePage() {
             <SectionHeaderComponent 
                 title="Solution" 
                 content="We developed products for our two main stakeholders: merchants and consumers." 
-                imgSrc={sectionHeaderSolution} bg="grey" 
+                imgSrc={sectionHeaderSolution} 
+                bg="grey" 
                 alt="Final solution app on a laptop" 
             />
 
