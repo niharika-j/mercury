@@ -1,0 +1,25 @@
+@import "~rfs/scss";
+@import "../../styles/color";
+
+.insights-section {
+    padding: 4rem 0;
+    .insights-title, .insights-subtitle {
+        text-align: center;
+    }
+    .insights-title {
+        @include font-size(1.3rem); //rfs
+        font-weight: 600;
+    }
+    .insights-subtitle {
+        margin-bottom: 2rem;
+    }
+    .insight-col {
+        padding: 1rem;
+        .insight {
+            padding: 2rem;
+            background-color: $grey1;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import "../../styles/color";
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+.header {
+    padding: 2rem 0;
+    .white {
+        color: $white; //_color.scss
+    }
+    .black {
+        color: $black; //_color.scss
+    }
+    .header-text {
+        @include font-size(4rem); //RFS
+        font-weight: 600;
+    }
+    .header-img {
+        max-width: 100%;
+    }
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $xs_max) {
+    .header {
+        .header-text {
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+            padding-top: 1rem;
+        }
+    }
+}

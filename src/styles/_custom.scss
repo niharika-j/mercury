@@ -1,0 +1,10 @@
+@import './color';
+
+$theme-colors: (
+    "primary": $primary
+);
+
+$grid-gutter-width: 0 !default;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

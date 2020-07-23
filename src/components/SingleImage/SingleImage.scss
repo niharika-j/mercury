@@ -1,0 +1,14 @@
+@import "~rfs/scss";
+
+.single-image-section {
+    text-align: center;
+    padding: 4rem 0;
+    .single-image-title {
+        @include font-size(2rem); //rfs
+        font-weight: 800;
+        padding-bottom: 2rem;
+    }
+    .single-image {
+        width: 83%;
+    }
+}

@@ -1,0 +1,46 @@
+@import '../../styles/color';
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+.section-header-section {
+    .section-header-title {
+        @include font-size(2rem); //rfs
+        font-weight: 800;
+        margin-bottom: 2rem;
+    }
+    .section-header-content {
+        font-size: 1rem;
+    }
+    .section-header-img {
+        text-align: right;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $xs_max) {
+    .section-header-section {
+        .section-header-title {
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+            padding-top: 1rem;
+        }
+        .section-header-content {
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+            font-size: 0.8rem;
+        }
+        .section-header-img {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            img {
+                max-width: 82%;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@import '../../styles/color';
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+.subsection-header-section {
+    padding: 4rem 0;
+    .subsection-header-title {
+        @include font-size(1.3rem); //rfs
+        font-weight: 600;
+        @include margin-bottom(2rem);
+    }
+    .subsection-header-content {
+        font-size: 1rem;
+    }
+    .subsection-button-row {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .subsection-header-img {
+        text-align: center;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $xs_max) {
+    .subsection-header-section {
+        .subsection-header-title {
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+        }
+        .subsection-header-content {
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+            font-size: 0.8rem;
+        }
+        .subsection-header-img {
+            img {
+                max-width: 82%;
+            }
+        }
+        .learn-more-btn {
+            margin-left: $col-width;
+            font-size: 0.8rem;
+        }
+    }
+}

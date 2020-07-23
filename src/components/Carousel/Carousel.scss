@@ -1,0 +1,36 @@
+@import "../../styles/color";
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+.carousel-section {
+    padding: 4rem 0;
+    .carousel-title {
+        text-align: center;
+        @include font-size(1.3rem); //rfs
+        font-weight: 600;
+    }
+    .carousel-subtitle {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .carousel-indicators li {
+        background-color: $primary;
+    }
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $xs_max) {
+    .carousel-section {
+        .carousel-content {
+            font-size: 0.8rem;
+        }
+        .carousel-indicators {
+            margin-bottom: 0;
+            li {
+                width: 10px;
+            }
+        }
+    }
+}

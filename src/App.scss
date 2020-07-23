@@ -1,0 +1,21 @@
+@import './styles/custom';
+@import "~rfs/scss";
+
+.padding-0 {
+    padding: 0;
+}
+.margin-top-5 {
+    @include margin-top(5rem);
+}
+.text-align-center {
+    text-align: center;
+}
+.green-bg {
+    background-image: linear-gradient(to bottom right, $green1, $green2, );
+}
+.grey-bg {
+    background-color: $grey1;
+}
+.page {
+    @include padding-top(4rem);
+}

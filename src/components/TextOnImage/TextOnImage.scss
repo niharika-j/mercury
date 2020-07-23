@@ -1,0 +1,40 @@
+@import '../../styles/color';
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+.text-on-image-section {
+    .text-on-image-container {
+        padding-left: 0;
+        padding-right: 0;
+        @include padding-top(4rem);
+        @include padding-bottom(4rem);
+    }
+    .text-on-image-title {
+        @include font-size(2rem); //rfs
+        font-weight: 800;
+        color: $white;
+        padding: 2rem 1rem;
+    }
+    .text-on-image-content {
+        font-size: 1.2rem;
+        color: $white;
+        padding: 2rem 1rem;
+        padding-top: 0;
+    }
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $xs_max) {
+    .text-on-image-section {
+        // .text-on-image-container {
+        //     padding: 4rem 0;
+        // }
+        .text-on-image-content {
+            font-size: 1rem;
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+        }
+    }
+}

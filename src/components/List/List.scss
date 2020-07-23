@@ -1,0 +1,67 @@
+@import '../../styles/color';
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+.list-section {
+    padding:  4rem 0;
+    box-sizing: border-box;
+    .list-header-text {
+        text-align: center;
+        padding-bottom: 4rem;
+        .list-header-title {
+            @include font-size(1.3rem); //rfs
+            font-weight: 600;
+        }
+        .list-header-subtitle {
+            font-size: 1rem;
+        }
+    }
+    .list-col{
+        margin-right: $col_width - 2.5;
+        &:last-child {
+            margin-right: 0;
+        }
+        .list-image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .list-text {
+            margin-top: 1rem;
+            @include font-size(1.3rem); //rfs
+            font-weight: 600;
+        }
+        .list-link {
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $xs_max) {
+    .list-section {
+        .list-header-text {
+            .list-header-subtitle {
+                font-size: 0.8rem;
+            }
+        }
+        .list-col{
+            margin-right: 0;
+            margin-bottom: 3rem;
+            &:last-child {
+                margin-bottom: 0;;
+            }
+            .list-text {
+                margin-top: 1rem;
+            }
+            .list-link {
+                .btn{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
