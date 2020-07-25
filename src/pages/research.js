@@ -198,7 +198,7 @@ function ResearchPage() {
                 title="Personas"
                 subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas."
                 forSection="consumerPersonaCarousel"
-                images={consumerPersonaCarousel}
+                images={consumerPersonaCarousel} // change these
                 bg="white"
             />
         </div>
