@@ -15,6 +15,8 @@ function PrototypesPage() {
 
   let scenariosAndStoryboards = ["To test our many ideas for both of our stakeholders we wrote scenarios and from those we drew storyboards. We then tested these with merchants and consumers to see which of these ideas resonated or evoked a response.  One of our major findings for merchants was they believed offering cashback/discounts was a good way to bring in first time customers. Consumers were interested in ideas involving: using spending data to create tailored offers,using recommendations from friends to decide where to go, and wanting to support small local businesses."];
   let merchantInterviews = ["Additionally, we conducted interview with merchants to determine what power they wanted to have over CLO’s and what type of deals they preferred as well as what type of metrics they wanted to see.  We found merchants wanted to have full control over the deals they offered , and each merchant had unique wants for the deals they offered.  Merchants wanted to see unique data they can only obtain through CLO’s including: traffic, top list information, items and return customers, and demographic info."];
+  let consumerPrototype = ["For our consumer prototype we wanted one of our unique value propositions to be the ability to send and receive deals from friends, especially as this idea was well liked by both consumers and merchants.  We started with testing low fidelity sketches to refine the features of the app,  before moving up to mid fidelity, and finally high fidelity.  Between each version we iterated on our design and layout, improving not only the visual design, but making the app more intuitive and less cluttered."];
+  let merchantPrototype = ["Based off of the unique data we found merchants were interested in and the unique value proposition of allowing users to send and receive deals from friends, we began developing our merchant facing product."]
 
 
   let ideatingList = [
@@ -115,10 +117,32 @@ function PrototypesPage() {
 
             <SectionHeaderComponent
                 title="Prototypes"
-                content="Once we established The development of our products followed the cycle of design, test, and iterate."
+                content="Once we established the ideas we wanted to incorporate in our product we began development.  The development of our products followed the cycle of design, test, and iterate."
                 imgSrc={marketSize}
                 alt="card-linked offers on phone and PoS"
                 bg="white"
+            />
+
+            <SubsectionComponent
+                title="Consumer Prototypes"
+                textType="paragraph"
+                content={consumerPrototype}
+                imgSrc={marketSize}     //fix image
+                bg="grey"
+                isButton={false}
+                url=""
+                alignImg="right"
+            />
+
+            <SubsectionComponent
+                title="Merchant Prototypes"
+                textType="paragraph"
+                content={merchantPrototype}
+                imgSrc={marketSize}     //fix image
+                bg="white"
+                isButton={false}
+                url=""
+                alignImg="left"
             />
 
 
