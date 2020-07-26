@@ -15,6 +15,26 @@ import marketSize from '../assets/images/research/marketsize.png';
 function SolutionsPage() {
 
     let text1 = [""];
+    let cloTechList = [
+        {
+            text: "Metrics",
+            imgSrc: marketSize,                       //fix image
+            alt: "Images of the crazy 8's we generated",
+            link: false
+        },
+        {
+            text: "Onboards",
+            imgSrc: marketSize,                      //fix image
+            alt: "A sample of a data flow map we created",
+            link: false
+        },
+        {
+            text: "Money Saved Directly on Purchase",
+            imgSrc: marketSize,                      //fix image
+            alt: "The notes of the mashup activity we performed",
+            link: false
+        }
+    ];
 
 
     return (
@@ -33,7 +53,7 @@ function SolutionsPage() {
             />
 
             <SingleImageComponent
-                imgSrc={marketSize}
+                imgSrc={marketSize}       //fix image
             />
 
             <TextSectionComponent
@@ -109,7 +129,7 @@ function SolutionsPage() {
             />
 
             <SubsectionComponent
-                title="Finding businesses to patronise through the map and list (with the ability to filter and search)."
+                title="Creating top lists based on business type (restaurant, service, store), location, and business type (salon, brunch, market)."
                 textType="paragraph"
                 imgSrc={marketSize}     //fix image
                 bg="white"
@@ -118,6 +138,33 @@ function SolutionsPage() {
                 alignImg="left"
             />
 
+            <SubsectionComponent
+                title="Adding friends, following businesses, writing reviews, viewing past restaurants visited."
+                textType="paragraph"
+                imgSrc={marketSize}     //fix image
+                bg="grey"
+                isButton={false}
+                url=""
+                alignImg="right"
+            />
+
+            <SubsectionComponent
+                title="Viewing updates and posts from businesses as well as new."
+                textType="paragraph"
+                imgSrc={marketSize}     //fix image
+                bg="white"
+                isButton={false}
+                url=""
+                alignImg="left"
+            />
+
+            <ListComponent
+                title="CLO Technology"
+                subtitle="One of our unique value propositions is integrating the merchant’s PoS with CLO’s."
+                list={cloTechList}
+                forSection="solutions-page-clotech"
+                bg="grey"
+            />
         </div>
     );
 }
