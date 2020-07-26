@@ -97,7 +97,7 @@ function HomePage() {
             />
             <ListComponent
                 title="Our Approach"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                subtitle="For this project we delved deep into researching not only our stakeholders but the complex world of CLO’s to better understand how we could improve them.  Our next step, and arguably most difficult, was taking all our findings and implementing these into a comprehensive solution for both of our stakeholders (merchants and consumers).  And after several rounds of designing, testing, and iterating, we created our final product: Mercury.  "
                 list={approachList}
                 forSection="home-page-approach"
                 bg="white"
