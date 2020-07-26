@@ -7,6 +7,7 @@ import CarouselComponent from '../components/Carousel/CarouselComponent';
 import SectionHeaderComponent from '../components/SectionHeader/SectionHeaderComponent';
 import SubsectionComponent from '../components/Subsection/SubsectionComponent';
 import ListComponent from '../components/List/ListComponent';
+import TextSectionComponent from '../components/TextSection/TextSectionComponent';
 
 import headerImg from '../assets/images/prototypes/prototypes-header.png';
 import marketSize from '../assets/images/research/marketsize.png';
@@ -66,7 +67,7 @@ function PrototypesPage() {
                 bg="grey"
                 imgSrc={headerImg}
                 color="black"
-                text="Less Transactional, More Relationship Building"
+                text="Prototypes"
             />
 
             <SectionHeaderComponent
@@ -115,12 +116,10 @@ function PrototypesPage() {
                 alignImg="left"
             />
 
-            <SectionHeaderComponent
+            <TextSectionComponent
                 title="Prototypes"
                 content="Once we established the ideas we wanted to incorporate in our product we began development.  The development of our products followed the cycle of design, test, and iterate."
-                imgSrc={marketSize}
-                alt="card-linked offers on phone and PoS"
-                bg="white"
+                bg="grey"
             />
 
             <SubsectionComponent
