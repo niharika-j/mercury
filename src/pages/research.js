@@ -5,6 +5,7 @@ import SingleImageComponent from '../components/SingleImage/SingleImageComponent
 import InsightsComponent from '../components/Insights/InsightsComponent';
 import CarouselComponent from '../components/Carousel/CarouselComponent';
 import SectionHeaderComponent from '../components/SectionHeader/SectionHeaderComponent';
+import TextSectionComponent from '../components/TextSection/TextSectionComponent';
 import SubsectionComponent from '../components/Subsection/SubsectionComponent';
 import ListComponent from '../components/List/ListComponent';
 
@@ -111,6 +112,12 @@ function ResearchPage() {
                 isButton={false}
                 url=""
                 alignImg="left"
+            />
+
+            <TextSectionComponent
+                title="Bank CLO's vs Publisher CLO's" 
+                content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+                bg="white"
             />
 
             <SubsectionComponent

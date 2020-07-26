@@ -1,0 +1,32 @@
+@import '../../styles/color';
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+.text-section {
+    padding: 4rem 0;
+    .text-section-title {
+        @include font-size(2rem); //rfs
+        font-weight: 800;
+    }
+    .text-section-content {
+        font-size: 1rem;
+    }
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $xs_max) {
+    .text-section {
+        .text-section-title {
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+            margin-bottom: 2rem;
+        }
+        .text-section-content {
+            padding-left: $col_width; //_responsive.scss
+            padding-right: $col_width; //_responsive.scss
+            font-size: 0.8rem;
+        }
+    }
+}
