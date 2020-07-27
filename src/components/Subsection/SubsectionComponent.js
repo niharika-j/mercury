@@ -2,6 +2,7 @@ import React from 'react';
 import './Subsection.scss';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { withRouter } from "react-router";
+import { Link } from 'react-router-dom';
 
 class SubsectionComponent extends React.Component {
     state = {
@@ -76,7 +77,9 @@ class SubsectionComponent extends React.Component {
                             {this.state.isButton?(
                             <Row className="subsection-button-row">
                                 <Col>
-                                    <Button variant="outline-primary" className="learn-more-btn">{this.state.buttonText}</Button>
+                                    <Button variant="outline-primary" className="learn-more-btn">
+                                        <Link to={this.state.url}>{this.state.buttonText}</Link>
+                                    </Button>
                                 </Col>
                             </Row>
                             ):null}

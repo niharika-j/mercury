@@ -18,10 +18,10 @@ class NavbarComponent extends React.Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" id="hamburger-icon" />
                         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                             <Nav>
-                                <Nav.Link href="/research">Research</Nav.Link>
-                                <Nav.Link href="/prototypes">Prototypes</Nav.Link>
-                                <Nav.Link href="/solutions">Solutions</Nav.Link>
-                                <Nav.Link href="/team">Our Team</Nav.Link>
+                                <Nav.Link href="/mercury/research">Research</Nav.Link>
+                                <Nav.Link href="/mercury/prototypes">Prototypes</Nav.Link>
+                                <Nav.Link href="/mercury/solutions">Solutions</Nav.Link>
+                                <Nav.Link href="/mercury/team">Our Team</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

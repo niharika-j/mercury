@@ -2,12 +2,7 @@ import React from 'react';
 
 import HeaderComponent from '../components/Header/HeaderComponent';
 import SingleImageComponent from '../components/SingleImage/SingleImageComponent';
-import InsightsComponent from '../components/Insights/InsightsComponent';
-import CarouselComponent from '../components/Carousel/CarouselComponent';
 import SectionHeaderComponent from '../components/SectionHeader/SectionHeaderComponent';
-import SubsectionComponent from '../components/Subsection/SubsectionComponent';
-import ListComponent from '../components/List/ListComponent';
-import TextSectionComponent from '../components/TextSection/TextSectionComponent';
 
 import headerImg from '../assets/images/team/team-header.png';
 import teamImage from '../assets/images/team/team.png';

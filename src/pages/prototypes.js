@@ -1,8 +1,6 @@
 import React from 'react';
 
 import HeaderComponent from '../components/Header/HeaderComponent';
-import SingleImageComponent from '../components/SingleImage/SingleImageComponent';
-import InsightsComponent from '../components/Insights/InsightsComponent';
 import CarouselComponent from '../components/Carousel/CarouselComponent';
 import SectionHeaderComponent from '../components/SectionHeader/SectionHeaderComponent';
 import SubsectionComponent from '../components/Subsection/SubsectionComponent';
@@ -11,7 +9,6 @@ import TextSectionComponent from '../components/TextSection/TextSectionComponent
 
 import headerImg from '../assets/images/prototypes/prototypes-header.png';
 import marketSize from '../assets/images/prototypes/consumer-prototypes.png';
-import consumerPrototype from '../assets/images/prototypes/consumer-prototypes.png';
 import crazy8 from '../assets/images/prototypes/crazy8.png';
 import dataFlow from '../assets/images/prototypes/dataFlow.png';
 import ideationHeader from '../assets/images/prototypes/ideation-header.png';
@@ -49,24 +46,24 @@ function PrototypesPage() {
       }
   ];
 
-  let storyboardCarousel = [
-      {
-          imgSrc: marketSize,                      //fix image
-          alt: "storyboard 1"
-      },
-      {
-          imgSrc: marketSize,                      //fix image
-          alt: "storyboard 2"
-      },
-      {
-          imgSrc: marketSize,                      //fix image
-          alt: "storyboard 3"
-      },
-      {
-          imgSrc: marketSize,                      //fix image
-          alt: "storyboard 4"
-      }
-  ];
+//   let storyboardCarousel = [
+//       {
+//           imgSrc: marketSize,                      //fix image
+//           alt: "storyboard 1"
+//       },
+//       {
+//           imgSrc: marketSize,                      //fix image
+//           alt: "storyboard 2"
+//       },
+//       {
+//           imgSrc: marketSize,                      //fix image
+//           alt: "storyboard 3"
+//       },
+//       {
+//           imgSrc: marketSize,                      //fix image
+//           alt: "storyboard 4"
+//       }
+//   ];
 
 
     return (
