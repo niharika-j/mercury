@@ -72,7 +72,7 @@ function PrototypesPage() {
                 bg="grey"
                 imgSrc={headerImg}
                 color="black"
-                text="Prototypes"
+                title="Prototypes"
             />
 
             <SectionHeaderComponent

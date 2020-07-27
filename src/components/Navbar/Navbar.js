@@ -12,7 +12,7 @@ class NavbarComponent extends React.Component {
             <section id="navbar">
                 <Navbar bg="primary" variant="dark" expand="sm" collapseOnSelect={true} fixed="top">
                     <Container fluid>
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand href="/mercury">
                             <img src={logo} alt="Mercury" id="logo" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" id="hamburger-icon" />

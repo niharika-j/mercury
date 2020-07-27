@@ -102,7 +102,7 @@ function ResearchPage() {
                 bg="grey"
                 imgSrc={headerImg}
                 color="black"
-                text="Research"
+                title="Research"
             />
 
             <SectionHeaderComponent

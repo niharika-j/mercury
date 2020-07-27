@@ -53,9 +53,9 @@ class SubsectionComponent extends React.Component {
                             </Col>)
                         :null
                         }
-                        <Col sm={{span: 5, offset: 1}} className="subsection-header-text align-self-center">
+                        <Col sm={{span: this.state.alignImg==="right"?5:4, offset: 1}} className="subsection-header-text align-self-center">
                             <Row>
-                                <Col className="subsection-header-title">{this.state.title}</Col>
+                                <Col sm={this.state.alignImg==="right"?8:12} className="subsection-header-title">{this.state.title}</Col>
                             </Row>
                             <Row>
                                 {this.state.textType==="paragraph"&&this.state.content?
@@ -64,7 +64,7 @@ class SubsectionComponent extends React.Component {
                                 }
                                 {this.state.textType==="list"&&this.state.content?
                                     (
-                                        <Col sm={8} className="subsection-header-content">
+                                        <Col sm={this.state.alignImg==="right"?8:12} className="subsection-header-content">
                                             <ul>
                                                 {this.state.content.map((lText, index) => this.formatList(lText, index))}
                                             </ul>

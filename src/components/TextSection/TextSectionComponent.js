@@ -22,10 +22,10 @@ class SubsectionComponent extends React.Component {
             <section className={this.state.bg==="grey"?"text-section grey-bg":"text-section"}>
                 <Container fluid>
                     <Row>
-                        <Col sm={{span: 5, offset: 1}} className="text-section-title align-self-center">
+                        <Col sm={{span: 6, offset: 1}} className="text-section-title align-self-center">
                             {this.state.title}
                         </Col>
-                        <Col sm={{span: 5}} className="text-section-content align-self-center">
+                        <Col sm={{span:4}} className="text-section-content align-self-center">
                             {this.state.content}
                         </Col>
                     </Row>

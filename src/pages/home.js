@@ -22,6 +22,7 @@ function HomePage() {
     let approachList = [
         {
             text: "Research",
+            description: "",
             imgSrc: projectApproachResearch,
             alt: "Kyle and Lauren conducting Think Aloud Protocol session at the mall",
             link: true,
@@ -30,6 +31,7 @@ function HomePage() {
         },
         {
             text: "Ideating and Prototyping",
+            description: "",
             imgSrc: projectApproachIdeatingPrototyping,
             alt: "Papers with initial prototype sketches",
             link: true,
@@ -38,6 +40,7 @@ function HomePage() {
         },
         {
             text: "Final Products",
+            description: "",
             imgSrc: projectFinalProduct,
             alt: "Laptop with merchant application open and mobile screen with consumer app open",
             link: true,
@@ -54,7 +57,8 @@ function HomePage() {
                 bg="green"
                 imgSrc={solution}
                 color="white"
-                text="Less Transactional, More Relationship Building"
+                title="Short Title" 
+                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
             />
 
             <TextOnImageComponent

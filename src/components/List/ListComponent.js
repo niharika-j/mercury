@@ -61,6 +61,9 @@ class ListComponent extends React.Component {
                                     <div className="list-text">
                                         {listObj.text}
                                     </div>
+                                    <div className="list-description">
+                                        {listObj.description?listObj.description:""}
+                                    </div>
                                     {listObj.link?(<div className="list-link">
                                         <Button variant="outline-primary" className="learn-more-btn">
                                             <Link to={listObj.url}>{listObj.linkText}</Link>

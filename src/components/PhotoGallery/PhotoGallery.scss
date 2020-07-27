@@ -1,0 +1,104 @@
+@import '../../styles/color';
+@import "../../styles/responsive";
+@import "~rfs/scss";
+
+#photo-gallery-section {
+    .team-member {
+        position: relative;
+        cursor: pointer;
+        .member-image {
+            max-width: 100%;
+        }
+        .member-name {
+            position: absolute;
+            bottom: 2.5rem;
+            width: 100%;
+            text-align: center;
+            color: $white;
+            @include font-size(1.3rem); //rfs
+            font-weight: 800;
+        }
+        .member-title {
+            position: absolute;
+            bottom: 1rem;
+            width: 100%;
+            text-align: center;
+            color: $white;
+        }
+    }
+}
+.modal-content {
+    .modal-header {
+        border-bottom: none;
+    }
+    .modal-body {
+        padding: 0 4rem 3rem 4rem;
+        .modal-profile-img {
+            width: 20vw;
+            img {
+                width: 100%;
+            }
+        }
+        .modal-member-content{
+            margin-left: 3rem;
+            .modal-member-name {
+                @include font-size(1.3rem); //rfs
+                font-weight: 800;
+            }
+            .modal-member-title {
+                font-size: 1rem;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+            }
+            .modal-member-description {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+            .member-contact-link {
+                margin-right: 1rem;
+            }
+        }
+
+    }
+}
+.custom-modal-size {
+    max-width: 70vw;
+}
+
+/***** RESPONSIVE MEDIA QUERIES *****/
+
+//xs (mobile)
+@media only screen and (max-width: $sm_max) {
+    #photo-gallery-section {
+        .team-member {
+            .member-name {
+                font-size: 1rem;
+            }
+            .member-title {
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .modal-content {
+        .modal-body {
+            padding: 0 2rem 2rem 2rem;
+            text-align: center;
+            .modal-profile-img {
+                width: 100%;
+            }
+            .modal-member-content{
+                margin-left: 0;
+                .modal-member-name {
+                    font-size: 1rem;
+                }
+                .modal-member-title {
+                    font-size: 0.8rem;
+                }
+                .modal-member-description {
+                    font-size: 0.8rem;
+                }
+            }
+    
+        }
+    }
+}

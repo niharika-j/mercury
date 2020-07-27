@@ -4,6 +4,7 @@ import HeaderComponent from '../components/Header/HeaderComponent';
 import TextSectionComponent from '../components/TextSection/TextSectionComponent';
 import SubsectionComponent from '../components/Subsection/SubsectionComponent';
 import ListComponent from '../components/List/ListComponent';
+import TwoImageComponent from '../components/TwoImage/TwoImageComponent';
 
 import headerImg from '../assets/images/solutions/solutions-header.png'
 import consumerDeal from '../assets/images/solutions/consumer-deal.png';
@@ -18,6 +19,8 @@ import merchantProfile from '../assets/images/solutions/merchant-profile.png';
 import posMetric from '../assets/images/solutions/pos-metric.png';
 import posOnboarding from '../assets/images/solutions/pos-onboarding.png';
 import posSaving from '../assets/images/solutions/pos-saving.png';
+import consumerApp from '../assets/images/solutions/consumer-app.png';
+import merchantApp from '../assets/images/solutions/merchant-app.png';
 
 
 function SolutionsPage() {
@@ -49,13 +52,21 @@ function SolutionsPage() {
                 bg="grey"
                 imgSrc={headerImg}
                 color="black"
-                text="Less Transactional, More Relationship Building"
+                title="Less Transactional, More Relationship Building"
             />
 
             <TextSectionComponent
                 title="Final Products"
                 content="We are proud to introduce our final product Mercury named after the Roman god of merchants and messaging.  Mercury is a two part product with a merchant side focused on the creation and control of CLO’s and the metrics specific to these CLO’s and a consumer side focused on sending and receiving deals "
                 bg="white"
+            />
+
+            <TwoImageComponent 
+                img1={merchantApp} 
+                alt1="Merchant app on laptop screen" 
+                img2={consumerApp} 
+                alt2="Consumer app screens on mobile phone" 
+                bg="green"
             />
 
             <TextSectionComponent
