@@ -7,9 +7,17 @@ import CarouselComponent from '../components/Carousel/CarouselComponent';
 import SectionHeaderComponent from '../components/SectionHeader/SectionHeaderComponent';
 import SubsectionComponent from '../components/Subsection/SubsectionComponent';
 import ListComponent from '../components/List/ListComponent';
-
+import TextSectionComponent from '../components/TextSection/TextSectionComponent';
 import headerImg from '../assets/images/prototypes/prototypes-header.png';
-import marketSize from '../assets/images/research/marketsize.png';
+import marketSize from '../assets/images/prototypes/consumer-prototypes.png';
+import consumerPrototype from '../assets/images/prototypes/consumer-prototypes.png';
+import crazy8 from '../assets/images/prototypes/crazy8.png';
+import dataFlow from '../assets/images/prototypes/dataFlow.png';
+import ideationHeader from '../assets/images/prototypes/ideation-header.png';
+import mashup from '../assets/images/prototypes/mashup.png';
+import merchantPrototype from '../assets/images/prototypes/merchant-prototype.png';
+import storyboards from '../assets/images/prototypes/storyboards.png';
+import merchantInterview from '../assets/images/prototypes/merchant-interview.png';
 
 function PrototypesPage() {
 
@@ -20,19 +28,19 @@ function PrototypesPage() {
   let ideatingList = [
       {
           text: "Crazy 8's",
-          imgSrc: marketSize,                       //fix image
+          imgSrc: crazy8,                       //fix image
           alt: "Images of the crazy 8's we generated",
           link: false
       },
       {
           text: "Data Flows",
-          imgSrc: marketSize,                      //fix image
+          imgSrc: dataFlow,                      //fix image
           alt: "A sample of a data flow map we created",
           link: false
       },
       {
           text: "Mashup Activity",
-          imgSrc: marketSize,                      //fix image
+          imgSrc: mashup,                      //fix image
           alt: "The notes of the mashup activity we performed",
           link: false
       }
@@ -70,7 +78,7 @@ function PrototypesPage() {
             <SectionHeaderComponent
                 title="Ideation and Testing"
                 content="Throughout the past few months, we have been focused on creating our prototypes.  To determine how we would use our research insights to inform our solution we performed several types of ideating, created scenarios and tested storyboards, before finally beginning prototyping."
-                imgSrc={marketSize}
+                imgSrc={ideationHeader}
                 alt="card-linked offers on phone and PoS"
                 bg="white"
             />
@@ -87,11 +95,22 @@ function PrototypesPage() {
                 title="Scenarios and Storyboards"
                 textType="paragraph"
                 content={scenariosAndStoryboards}
-                imgSrc={marketSize}     //fix image
+                imgSrc={storyboards}
                 bg="white"
                 isButton={false}
                 url=""
                 alignImg="right"
+            />
+
+            <SubsectionComponent
+                title="Merchant Interviews"
+                textType="paragraph"
+                content={merchantInterviews}
+                imgSrc={merchantInterview}
+                bg="white"
+                isButton={false}
+                url=""
+                alignImg="left"
             />
 
             <CarouselComponent
@@ -102,25 +121,10 @@ function PrototypesPage() {
                 bg="grey"
             />
 
-            <SubsectionComponent
-                title="Merchant Interviews"
-                textType="paragraph"
-                content={merchantInterviews}
-                imgSrc={marketSize}     //fix image
-                bg="white"
-                isButton={false}
-                url=""
-                alignImg="left"
+            <TextSectionComponent
+              title="Prototypes"
+              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
             />
-
-            <SectionHeaderComponent
-                title="Prototypes"
-                content="Once we established The development of our products followed the cycle of design, test, and iterate."
-                imgSrc={marketSize}
-                alt="card-linked offers on phone and PoS"
-                bg="white"
-            />
-
 
         </div>
 
