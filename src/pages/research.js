@@ -104,7 +104,7 @@ function ResearchPage() {
                 bg="grey"
                 imgSrc={headerImg}
                 color="black"
-                text="Less Transactional, More Relationship Building"
+                text="Research"
             />
 
             <SectionHeaderComponent
@@ -127,8 +127,8 @@ function ResearchPage() {
             />
 
             <TextSectionComponent
-                title="Bank CLO's vs Publisher CLO's"
-                content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                title="Bank CLO's vs Publisher CLO's" 
+                content="CLO’s are offered through two mediums: banking (such as PNC) and what are known as publisher apps (Dosh, Rakuten, Pei, etc.)."
                 bg="white"
             />
 
@@ -170,7 +170,7 @@ function ResearchPage() {
 
             <ListComponent
                 title="Our Approach"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                subtitle="To better understand our users we carried out an intensive set of research involving a wide array of research methodologies:"
                 list={consumerResearch}
                 forSection="research-page-consumerresearch"
                 bg="grey"
@@ -178,16 +178,16 @@ function ResearchPage() {
 
             <InsightsComponent
                 title="Insights"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                subtitle="To synthesize all of our research into findings, we performed several round of affinity diagraming.  Our most important insights were:"
                 forSection="consumerResearchInsights"
                 insights={consumerInsights}
             />
 
             <CarouselComponent
                 title="Personas"
-                subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas."
+                subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas:"
                 forSection="consumerPersonaCarousel"
-                images={consumerPersonaCarousel}
+                images={consumerPersonaCarousel}    //update images!!
                 bg="white"
             />
 
@@ -200,7 +200,7 @@ function ResearchPage() {
 
             <ListComponent
                 title="Our Approach"
-                subtitle="To better understand merchants we we conducted rounds of interviews:"
+                subtitle="To better understand merchants we conducted rounds several of interviews including a super-merchant interview:"
                 list={merchantResearch}
                 forSection="research-page-merchantresearch"
                 bg="grey"
@@ -208,14 +208,14 @@ function ResearchPage() {
 
             <InsightsComponent
                 title="Insights"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                subtitle="After the interviews we once again used affinity diagram to find these major insights:"
                 forSection="storyboards"
                 insights={consumerInsights}
             />
 
             <CarouselComponent
                 title="Personas"
-                subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas."
+                subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into these two personas:"
                 forSection="consumerPersonaCarousel"
                 images={consumerPersonaCarousel} // change these
                 bg="white"
