@@ -39,7 +39,7 @@ class SubsectionComponent extends React.Component {
         return (
             <li key={`${this.state.title}-${index}`}>{text}</li>
         )
-    }    
+    }
 
     render() {
         return (

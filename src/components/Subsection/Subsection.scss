@@ -3,11 +3,12 @@
 @import "~rfs/scss";
 
 .subsection-header-section {
-    padding: 4rem 0;
+    padding: 0;
     .subsection-header-title {
         @include font-size(1.3rem); //rfs
         font-weight: 600;
         @include margin-bottom(2rem);
+        margin-right: 20%; //leave margin on the right when the text is on the right
     }
     .subsection-header-content {
         font-size: 1rem;
