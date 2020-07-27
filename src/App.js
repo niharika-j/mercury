@@ -17,7 +17,7 @@ import TeamPage from './pages/team';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/mercury">
         <NavbarComponent />
         <Switch>
           <Route exact path="/">
