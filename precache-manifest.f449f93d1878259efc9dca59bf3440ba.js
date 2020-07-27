@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73acfa04cd841f5d2e9f798cae0f2c7c",
+    "revision": "577d4da0f968290ac64141abd5230f21",
     "url": "/mercury/index.html"
   },
   {
-    "revision": "540928dad9edf5cdbf81",
-    "url": "/mercury/static/css/main.1a797926.chunk.css"
+    "revision": "7615a9ec50d6b36af422",
+    "url": "/mercury/static/css/main.e133af29.chunk.css"
   },
   {
-    "revision": "27be2f799dbb4b721816",
-    "url": "/mercury/static/js/2.b2202dab.chunk.js"
+    "revision": "a17c1c0a61b12d9158ff",
+    "url": "/mercury/static/js/2.5be34c9f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/mercury/static/js/2.b2202dab.chunk.js.LICENSE.txt"
+    "url": "/mercury/static/js/2.5be34c9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "540928dad9edf5cdbf81",
-    "url": "/mercury/static/js/main.37d36821.chunk.js"
+    "revision": "7615a9ec50d6b36af422",
+    "url": "/mercury/static/js/main.242abd78.chunk.js"
   },
   {
     "revision": "286119e22ce58935518b",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d5312d9dad39eaf1ae7f55ba422e8bd",
     "url": "/mercury/static/media/consumer-app-subsection.4d5312d9.png"
-  },
-  {
-    "revision": "4e38c58e5b2c4bef874d9bbbd7e28f73",
-    "url": "/mercury/static/media/consumer-app.4e38c58e.png"
   },
   {
     "revision": "eb7e0bb34635110f08b9452c40c7cce0",
@@ -116,10 +112,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/media/merchant-app-subsection.639b6bfe.png"
   },
   {
-    "revision": "f1b9f1e90587960c21fed57415b55ce1",
-    "url": "/mercury/static/media/merchant-app.f1b9f1e9.png"
-  },
-  {
     "revision": "06481e1a287e96a3d4ae5f6e939526db",
     "url": "/mercury/static/media/merchant-interview.06481e1a.png"
   },
@@ -142,10 +134,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4af3fe72a8bca4d245ca4a38ddaa24ec",
     "url": "/mercury/static/media/merchant-prototype.4af3fe72.png"
-  },
-  {
-    "revision": "0f5cc9de8d64dde026471dd07942c8df",
-    "url": "/mercury/static/media/metric.0f5cc9de.png"
   },
   {
     "revision": "1c1d1db4baa4dd99c2cc63c6e7d155d8",
