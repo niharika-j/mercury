@@ -20,6 +20,19 @@ import merchantPrototypeImage from '../assets/images/prototypes/merchant-prototy
 import storyboards from '../assets/images/prototypes/storyboards.png';
 import merchantInterview from '../assets/images/prototypes/merchant-interview.png';
 
+// storyboards
+import wallet1 from '../assets/images/prototypes/storyboards/All-in-one-wallet-1.png';
+import wallet2 from '../assets/images/prototypes/storyboards/All-in-one-wallet-2.png';
+import wallet3 from '../assets/images/prototypes/storyboards/All-in-one-wallet-safe.png';
+import debitProfileConsumer from '../assets/images/prototypes/storyboards/debit-profile-consumer.png';
+import debitProfileMerchant from '../assets/images/prototypes/storyboards/debit-profile-merchant.png';
+import investingRisky from '../assets/images/prototypes/storyboards/investing-risky.png';
+import investingSafe from '../assets/images/prototypes/storyboards/investing-safe.png';
+import localRisky from '../assets/images/prototypes/storyboards/local-buyer-consumer-risky.png';
+import localSafe from '../assets/images/prototypes/storyboards/local-buyer-consumer.png';
+import newFoodRisky from '../assets/images/prototypes/storyboards/new-food-risky.png';
+import newFoodsafe from '../assets/images/prototypes/storyboards/new-food-safe.png';
+
 function PrototypesPage() {
 
   let scenariosAndStoryboards = ["To test our many ideas for both of our stakeholders we wrote scenarios and from those we drew storyboards. We then tested these with merchants and consumers to see which of these ideas resonated or evoked a response.  One of our major findings for merchants was they believed offering cashback/discounts was a good way to bring in first time customers. Consumers were interested in ideas involving: using spending data to create tailored offers,using recommendations from friends to decide where to go, and wanting to support small local businesses."];
@@ -51,21 +64,49 @@ function PrototypesPage() {
 
   let storyboardCarousel = [
       {
-          imgSrc: marketSize,                      //fix image
+          imgSrc: wallet1,                      //fix image
           alt: "storyboard 1"
       },
       {
-          imgSrc: marketSize,                      //fix image
+          imgSrc: wallet2,                      //fix image
           alt: "storyboard 2"
       },
       {
-          imgSrc: marketSize,                      //fix image
+          imgSrc: wallet3,                      //fix image
           alt: "storyboard 3"
       },
       {
-          imgSrc: marketSize,                      //fix image
+          imgSrc: debitProfileConsumer,                      //fix image
           alt: "storyboard 4"
-      }
+      },
+      {
+          imgSrc: debitProfileMerchant,                      //fix image
+          alt: "storyboard 4"
+      },
+      {
+          imgSrc: investingRisky,                      //fix image
+          alt: "storyboard 4"
+      },
+      {
+          imgSrc: investingSafe,                      //fix image
+          alt: "storyboard 4"
+      },
+      {
+          imgSrc: localRisky,                      //fix image
+          alt: "storyboard 4"
+      },
+      {
+          imgSrc: localSafe,                      //fix image
+          alt: "storyboard 4"
+      },
+      {
+          imgSrc: newFoodRisky,                      //fix image
+          alt: "storyboard 4"
+      },
+      {
+          imgSrc: newFoodsafe,                      //fix image
+          alt: "storyboard 4"
+      },
   ];
 
 
@@ -118,9 +159,9 @@ function PrototypesPage() {
 
             <CarouselComponent
                 title="Storyboards"
-                // subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas."
+                subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas."
                 forSection="consumerPersonaCarousel"
-                images={null} // change these
+                images={storyboardCarousel}
                 bg="grey"
             />
 

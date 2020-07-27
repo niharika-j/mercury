@@ -127,7 +127,7 @@ function ResearchPage() {
             />
 
             <TextSectionComponent
-                title="Bank CLO's vs Publisher CLO's" 
+                title="Bank CLO's vs Publisher CLO's"
                 content="CLO’s are offered through two mediums: banking (such as PNC) and what are known as publisher apps (Dosh, Rakuten, Pei, etc.)."
                 bg="white"
             />
@@ -188,7 +188,7 @@ function ResearchPage() {
                 subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas:"
                 forSection="consumerPersonaCarousel"
                 images={consumerPersonaCarousel}    //update images!!
-                bg="white"
+                bg="grey"
             />
 
             <SectionHeaderComponent
@@ -218,7 +218,7 @@ function ResearchPage() {
                 subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into these two personas:"
                 forSection="consumerPersonaCarousel"
                 images={consumerPersonaCarousel} // change these
-                bg="white"
+                bg="grey"
             />
         </div>
     );
