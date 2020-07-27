@@ -23,6 +23,12 @@
             max-width: 100%;
         }
     }
+    .subsection-button-row {
+        .learn-more-btn a{
+            color: inherit;
+            text-decoration: none;
+        }
+    }
 }
 
 /***** RESPONSIVE MEDIA QUERIES *****/

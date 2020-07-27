@@ -2,6 +2,7 @@ import React from 'react';
 import './List.scss';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { withRouter } from "react-router";
+import { Link } from 'react-router-dom';
 
 class ListComponent extends React.Component {
     state = {
@@ -60,7 +61,13 @@ class ListComponent extends React.Component {
                                     <div className="list-text">
                                         {listObj.text}
                                     </div>
-                                    {listObj.link?(<div className="list-link"><Button variant="outline-primary" className="learn-more-btn">{listObj.linkText}</Button></div>):null}
+                                    <div className="list-description">
+                                        {listObj.description?listObj.description:""}
+                                    </div>
+                                    {listObj.link?(<div className="list-link">
+                                        <Button variant="outline-primary" className="learn-more-btn">
+                                            <Link to={listObj.url}>{listObj.linkText}</Link>
+                                        </Button></div>):null}
                                 </Col>)
                             )
                             :

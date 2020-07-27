@@ -34,6 +34,10 @@
         }
         .list-link {
             margin-top: 0.5rem;
+            .learn-more-btn a{
+                color: inherit;
+                text-decoration: none;
+            }
         }
     }
 }

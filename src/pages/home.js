@@ -16,33 +16,35 @@ import projectApproachIdeatingPrototyping from '../assets/images/home/project-id
 import projectFinalProduct from '../assets/images/home/project-final-product.png';
 
 function HomePage() {
-    let subsectionParagraphs = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"];
     let consumerAppList = ["Dedicated to local merhcants so they don't have to compete with chains", "Offers unique metrics through the combination of CLO and POS data", "Enables merchants to market themselves in a more targeted manner", "Merchants have full control over deals being offered"];
     let merchantAppList = ["Simpler onboarding through the PoS", "Deals are money saved on purchase as opposed to cashback", "Allows users to send and receive deals from friends", "Enables a closer connection with merchants"];
 
     let approachList = [
         {
             text: "Research",
+            description: "",
             imgSrc: projectApproachResearch,
             alt: "Kyle and Lauren conducting Think Aloud Protocol session at the mall",
             link: true,
-            url: "",
+            url: "/research",
             linkText: "Learn more"
         },
         {
             text: "Ideating and Prototyping",
+            description: "",
             imgSrc: projectApproachIdeatingPrototyping,
             alt: "Papers with initial prototype sketches",
             link: true,
-            url: "",
+            url: "/prototypes",
             linkText: "Learn more"
         },
         {
             text: "Final Products",
+            description: "",
             imgSrc: projectFinalProduct,
             alt: "Laptop with merchant application open and mobile screen with consumer app open",
             link: true,
-            url: "",
+            url: "/solutions",
             linkText: "Learn more"
         }
     ];
@@ -55,7 +57,8 @@ function HomePage() {
                 bg="green"
                 imgSrc={solution}
                 color="white"
-                text="Less Transactional, More Relationship Building"
+                title="Short Title" 
+                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
             />
 
             <TextOnImageComponent
@@ -80,7 +83,7 @@ function HomePage() {
                 bg="white"
                 isButton={true}
                 buttonText="Learn More"
-                url=""
+                url="/prototypes"
                 alignImg="right"
             />
 
@@ -92,7 +95,7 @@ function HomePage() {
                 bg="grey"
                 isButton={true}
                 buttonText="Learn More"
-                url=""
+                url="/prototypes"
                 alignImg="left"
             />
             <ListComponent

@@ -2,6 +2,7 @@ import React from 'react';
 import './Subsection.scss';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { withRouter } from "react-router";
+import { Link } from 'react-router-dom';
 
 class SubsectionComponent extends React.Component {
     state = {
@@ -52,9 +53,9 @@ class SubsectionComponent extends React.Component {
                             </Col>)
                         :null
                         }
-                        <Col sm={{span: 5, offset: 1}} className="subsection-header-text align-self-center">
+                        <Col sm={{span: this.state.alignImg==="right"?5:4, offset: 1}} className="subsection-header-text align-self-center">
                             <Row>
-                                <Col className="subsection-header-title">{this.state.title}</Col>
+                                <Col sm={this.state.alignImg==="right"?8:12} className="subsection-header-title">{this.state.title}</Col>
                             </Row>
                             <Row>
                                 {this.state.textType==="paragraph"&&this.state.content?
@@ -63,7 +64,7 @@ class SubsectionComponent extends React.Component {
                                 }
                                 {this.state.textType==="list"&&this.state.content?
                                     (
-                                        <Col sm={8} className="subsection-header-content">
+                                        <Col sm={this.state.alignImg==="right"?8:12} className="subsection-header-content">
                                             <ul>
                                                 {this.state.content.map((lText, index) => this.formatList(lText, index))}
                                             </ul>
@@ -76,7 +77,9 @@ class SubsectionComponent extends React.Component {
                             {this.state.isButton?(
                             <Row className="subsection-button-row">
                                 <Col>
-                                    <Button variant="outline-primary" className="learn-more-btn">{this.state.buttonText}</Button>
+                                    <Button variant="outline-primary" className="learn-more-btn">
+                                        <Link to={this.state.url}>{this.state.buttonText}</Link>
+                                    </Button>
                                 </Col>
                             </Row>
                             ):null}

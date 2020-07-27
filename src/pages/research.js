@@ -35,8 +35,6 @@ function ResearchPage() {
     let marketSizeClo = ["Card-linked offers are the second most popular advertising channel after social media marketing: $1B - $10B retail sales tied to CLOs. "];
     let bankApp = ["must be activated before they can be applied to the user’s purchase", "limited deals, with an expiration date of about 2 weeks from activation.", "save money in the form of cash back which averages around 5% of the total purchase.", "B2B(business-to-business) publishers like Cardlytics, act as a middle man between banks and merchants."];
     let consumerApp = ["offer cashback deals for credit and/or debit cards.", "average cash back offered on Dosh is 2-3%. Some merchants put a cap on how much cumulative cashback a customer can get.", "some apply CLOs automatically on purchases.", " have direct connections to merchants or access them through partnerships with rewards programs like Rewards Network."];
-    let merhcantInsights = ["Merchants need a way to calculate value of marketing using CLOs. They do not trust the existing reports by rewards programs and believe that they take credit of their returning customers.", "POS systems can potentially help merchants gain trust in rewards programs.", "Local merchants are struggling to compete with online retail giants like Amazon.", "Merchants want more control over where their business is advertised.", "Business owners who are very involved in marketing may want ways to develop value metrics for CLOs that are unique to their business.", "Symbiotic partnerships with other local businesses targeting similar customer segments is another preferred way for marketing."];
-
     let consumerResearch = [
         {
             text: "Guerilla Research",
@@ -104,7 +102,7 @@ function ResearchPage() {
                 bg="grey"
                 imgSrc={headerImg}
                 color="black"
-                text="Research"
+                title="Research"
             />
 
             <SectionHeaderComponent
