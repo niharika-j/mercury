@@ -31,6 +31,27 @@ function SolutionsPage() {
 
     let spaceHolder = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"];
 
+    let cloTechList = [
+        {
+            text: "Metrics",
+            imgSrc: posMetric,
+            alt: "Mia conducting guerilla research",
+            link: false
+        },
+        {
+            text: "Onboarding",
+            imgSrc: posOnboarding,                      //fix image
+            alt: "Kyle conducting a booth interview",
+            link: false
+        },
+        {
+            text: "Money saved directly on purchase",
+            imgSrc: posSaving,                      //fix image
+            alt: "Laptop with merchant application open and mobile screen with consumer app open",
+            link: false
+        },
+    ];
+
     return (
         <div className="page">
             <HeaderComponent
@@ -46,10 +67,6 @@ function SolutionsPage() {
                 bg="white"
             />
 
-            <SingleImageComponent
-                imgSrc={marketSize}       //fix image
-            />
-
             <TextSectionComponent
                 title="Merchant App"
                 content="Mercury is a tool for small local merchants that allows them to use CLO’s to market themselves more efficiently to their preferred market segments.  They can see actionable metrics and insights allowing them to adjust their marketing techniques."
@@ -59,7 +76,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Showing unique metrics possible through CLO’s: traffic, top list data, items vs return customers, and demographic info."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={merchantMetric}     //fix image
                 bg="white"
                 isButton={false}
                 url=""
@@ -69,7 +86,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Setting up the information for the business page on the consumer app."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={merchantProfile}     //fix image
                 bg="grey"
                 isButton={false}
                 url=""
@@ -79,7 +96,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Sending deals to users directly (with the ability to narrow down audience based on interests and other factors) and creating deals for users of the consumer app to send to their friends."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={merchantNewDeal}     //fix image
                 bg="white"
                 isButton={false}
                 url=""
@@ -89,7 +106,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Sending messages to users about promotions, new items, updates, etc."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={merchantMessage}     //fix image
                 bg="grey"
                 isButton={false}
                 url=""
@@ -105,7 +122,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Finding businesses to patronise through the map and list (with the ability to filter and search)."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={consumerMap}     //fix image
                 bg="white"
                 isButton={false}
                 url=""
@@ -115,7 +132,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Receiving targeted deals from friends and businesses, and sending deals to friends."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={consumerDeal}     //fix image
                 bg="grey"
                 isButton={false}
                 url=""
@@ -125,7 +142,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Creating top lists based on business type (restaurant, service, store), location, and business type (salon, brunch, market)."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={consumerToplist}     //fix image
                 bg="white"
                 isButton={false}
                 url=""
@@ -135,7 +152,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Adding friends, following businesses, writing reviews, viewing past restaurants visited."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={consumerReview}     //fix image
                 bg="grey"
                 isButton={false}
                 url=""
@@ -145,7 +162,7 @@ function SolutionsPage() {
             <SubsectionComponent
                 title="Viewing updates and posts from businesses as well as new."
                 textType="paragraph"
-                imgSrc={marketSize}     //fix image
+                imgSrc={consumerFeed}     //fix image
                 bg="white"
                 isButton={false}
                 url=""
@@ -159,57 +176,6 @@ function SolutionsPage() {
                 forSection="solutions-page-clotech"
                 bg="grey"
             />
-            <TextSectionComponent
-              title="title"
-              bg=""
-              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-            />
-
-            <SubsectionComponent
-                title=""
-                textType="paragraph"
-                content= {spaceHolder}
-                imgSrc={merchantMetric}
-                bg="white"
-                isButton={false}
-                url=""
-                alignImg="left"
-            />
-
-            <SubsectionComponent
-                title=""
-                textType="paragraph"
-                content= {spaceHolder}
-                imgSrc={merchantProfile}
-                bg="grey"
-                isButton={false}
-                url=""
-                alignImg="right"
-            />
-
-            <SubsectionComponent
-                title=""
-                textType="paragraph"
-                content= {spaceHolder}
-                imgSrc={merchantNewDeal}
-                bg="white"
-                isButton={false}
-                url=""
-                alignImg="left"
-            />
-
-            <SubsectionComponent
-                title=""
-                textType="paragraph"
-                content= {spaceHolder}
-                imgSrc={merchantMessage}
-                bg="grey"
-                isButton={false}
-                url=""
-                alignImg="right"
-            />
-
-
 
         </div>
     );

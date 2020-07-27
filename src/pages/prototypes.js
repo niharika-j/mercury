@@ -16,7 +16,7 @@ import crazy8 from '../assets/images/prototypes/crazy8.png';
 import dataFlow from '../assets/images/prototypes/dataFlow.png';
 import ideationHeader from '../assets/images/prototypes/ideation-header.png';
 import mashup from '../assets/images/prototypes/mashup.png';
-import merchantPrototype from '../assets/images/prototypes/merchant-prototype.png';
+import merchantPrototypeImage from '../assets/images/prototypes/merchant-prototype.png';
 import storyboards from '../assets/images/prototypes/storyboards.png';
 import merchantInterview from '../assets/images/prototypes/merchant-interview.png';
 
@@ -116,18 +116,18 @@ function PrototypesPage() {
                 alignImg="left"
             />
 
-<<<<<<< HEAD
             <CarouselComponent
                 title="Storyboards"
                 // subtitle="From the research conducted we were able to find find commonalities in our interviewees and synthesized these into the following personas."
                 forSection="consumerPersonaCarousel"
-                images={storyboardCarousel} // change these
+                images={null} // change these
                 bg="grey"
-=======
+            />
+
             <TextSectionComponent
                 title="Prototypes"
                 content="Once we established the ideas we wanted to incorporate in our product we began development.  The development of our products followed the cycle of design, test, and iterate."
-                bg="grey"
+                bg="white"
             />
 
             <SubsectionComponent
@@ -135,7 +135,7 @@ function PrototypesPage() {
                 textType="paragraph"
                 content={consumerPrototype}
                 imgSrc={marketSize}     //fix image
-                bg="grey"
+                bg="white"
                 isButton={false}
                 url=""
                 alignImg="right"
@@ -145,17 +145,11 @@ function PrototypesPage() {
                 title="Merchant Prototypes"
                 textType="paragraph"
                 content={merchantPrototype}
-                imgSrc={marketSize}     //fix image
-                bg="white"
+                imgSrc={merchantPrototypeImage}
+                bg="grey"
                 isButton={false}
                 url=""
                 alignImg="left"
->>>>>>> 3942fe5e1275e818edaa9f82c1658265112f3b92
-            />
-
-            <TextSectionComponent
-              title="Prototypes"
-              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
             />
 
         </div>
