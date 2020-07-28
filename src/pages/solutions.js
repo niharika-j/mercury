@@ -30,19 +30,22 @@ function SolutionsPage() {
             text: "Metrics",
             imgSrc: posMetric,
             alt: "Mia conducting guerilla research",
-            link: false
+            link: false,
+            description: "we are able to obtain unique data from combining PoS data with CLO data, such as what customers ordered, demographic information, success of a CLO."
         },
         {
             text: "Onboarding",
             imgSrc: posOnboarding,                      //fix image
             alt: "Kyle conducting a booth interview",
-            link: false
+            link: false,
+            description: "On the customer side we are able to introduce them to CLO’s in a way that feels more safe- through the PoS of a trusted merchant."
         },
         {
             text: "Money saved directly on purchase",
             imgSrc: posSaving,                      //fix image
             alt: "Laptop with merchant application open and mobile screen with consumer app open",
-            link: false
+            link: false,
+            description: "CLO’s are almost all cash back deals, to many users this can feel like a catch when insights show users want immediate savings.  Through the connection with the PoS we offer savings on the purchase itself."
         },
     ];
 
@@ -61,11 +64,11 @@ function SolutionsPage() {
                 bg="white"
             />
 
-            <TwoImageComponent 
-                img1={merchantApp} 
-                alt1="Merchant app on laptop screen" 
-                img2={consumerApp} 
-                alt2="Consumer app screens on mobile phone" 
+            <TwoImageComponent
+                img1={merchantApp}
+                alt1="Merchant app on laptop screen"
+                img2={consumerApp}
+                alt2="Consumer app screens on mobile phone"
                 bg="green"
             />
 
