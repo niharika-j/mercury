@@ -57,8 +57,8 @@ function HomePage() {
                 bg="green"
                 imgSrc={solution}
                 color="white"
-                title="Short Title" 
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+                title="Mercury"
+                subtitle="A two-part card linked offer ecosystem: a merchant program and consumer app."
             />
 
             <TextOnImageComponent
