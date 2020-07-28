@@ -43,19 +43,22 @@ function PrototypesPage() {
           text: "Crazy 8's",
           imgSrc: crazy8,                       //fix image
           alt: "Images of the crazy 8's we generated",
-          link: false
+          link: false,
+          description: "We conducted several rounds of crazy eights, an activity where members think of the most “out there” ideas based on findings."
       },
       {
           text: "Data Flows",
           imgSrc: dataFlow,                      //fix image
           alt: "A sample of a data flow map we created",
-          link: false
+          link: false,
+          description: "We also made data flows to look into how we could use CLOs and CLO technology and what unique data we could offer merchants that they wouldn’t be able to get from their PoS."
       },
       {
           text: "Mashup Activity",
           imgSrc: mashup,                      //fix image
           alt: "The notes of the mashup activity we performed",
-          link: false
+          link: false,
+          description: "Additionally we did a mashup activity, where we thought of different problems, mediums, tools, etc, and mixed them up to inspire new ideas."
       }
   ];
 
