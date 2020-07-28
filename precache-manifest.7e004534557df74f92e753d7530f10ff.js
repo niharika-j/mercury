@@ -1,39 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "577d4da0f968290ac64141abd5230f21",
+    "revision": "64cb79b32ebc70a8dd3c0f96f102116c",
     "url": "/mercury/index.html"
   },
   {
-    "revision": "7615a9ec50d6b36af422",
-    "url": "/mercury/static/css/main.e133af29.chunk.css"
+    "revision": "57197a87e93de78a322e",
+    "url": "/mercury/static/css/main.8ad1215c.chunk.css"
   },
   {
-    "revision": "a17c1c0a61b12d9158ff",
-    "url": "/mercury/static/js/2.5be34c9f.chunk.js"
+    "revision": "2d161a2ea9574e3d6d97",
+    "url": "/mercury/static/js/2.a44a5a1d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/mercury/static/js/2.5be34c9f.chunk.js.LICENSE.txt"
+    "url": "/mercury/static/js/2.a44a5a1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7615a9ec50d6b36af422",
-    "url": "/mercury/static/js/main.242abd78.chunk.js"
+    "revision": "57197a87e93de78a322e",
+    "url": "/mercury/static/js/main.ae476b05.chunk.js"
   },
   {
     "revision": "286119e22ce58935518b",
     "url": "/mercury/static/js/runtime-main.983c2cbc.js"
   },
   {
+    "revision": "5f0abcb74ebcc27f2f7727d3ba5c001f",
+    "url": "/mercury/static/media/All-in-one-wallet-1.5f0abcb7.png"
+  },
+  {
+    "revision": "ec7c20b3885f62709547165abecf091b",
+    "url": "/mercury/static/media/All-in-one-wallet-2.ec7c20b3.png"
+  },
+  {
+    "revision": "16ebf001336473768014d522bcd82963",
+    "url": "/mercury/static/media/All-in-one-wallet-safe.16ebf001.png"
+  },
+  {
+    "revision": "a734f68572a099c22eac0bfb057eea00",
+    "url": "/mercury/static/media/bin-grey.a734f685.png"
+  },
+  {
+    "revision": "ae113c0237c9fd35bffd53f82c9bc3ef",
+    "url": "/mercury/static/media/bin.ae113c02.png"
+  },
+  {
     "revision": "d0c05571730111dc35be1afee52e61be",
     "url": "/mercury/static/media/booth-interview.d0c05571.png"
   },
   {
-    "revision": "325b7ec3d858e9d78a6cb0c18ec3c50c",
-    "url": "/mercury/static/media/clo-bank-app.325b7ec3.png"
+    "revision": "5fb6617632a3f18383d71b4b571df164",
+    "url": "/mercury/static/media/clo-bank-app.5fb66176.png"
   },
   {
-    "revision": "7cade857d50f0f573ae03235eea845e0",
-    "url": "/mercury/static/media/clo-publisher-app.7cade857.png"
+    "revision": "1055cfa523b854a44b778b257ac9351c",
+    "url": "/mercury/static/media/clo-publisher-app.1055cfa5.png"
   },
   {
     "revision": "9b1fbdf5281ecefc9abe0f2985628245",
@@ -44,16 +64,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/media/consumer-app-subsection.4d5312d9.png"
   },
   {
-    "revision": "eb7e0bb34635110f08b9452c40c7cce0",
-    "url": "/mercury/static/media/consumer-deal.eb7e0bb3.png"
+    "revision": "4e38c58e5b2c4bef874d9bbbd7e28f73",
+    "url": "/mercury/static/media/consumer-app.4e38c58e.png"
   },
   {
-    "revision": "a01e54cd5c858fe3e97ca4ea40b8c60d",
-    "url": "/mercury/static/media/consumer-feed.a01e54cd.png"
+    "revision": "b5a974839767a6450d51d92aaa881903",
+    "url": "/mercury/static/media/consumer-deal.b5a97483.png"
   },
   {
-    "revision": "c17e8e1bfd589dfcd9717e8158f287e0",
-    "url": "/mercury/static/media/consumer-map.c17e8e1b.png"
+    "revision": "c96511c1aa8a7f30621ecee4ab378f87",
+    "url": "/mercury/static/media/consumer-feed.c96511c1.png"
+  },
+  {
+    "revision": "68d73361360a406c111301d051cdc84c",
+    "url": "/mercury/static/media/consumer-map.68d73361.png"
   },
   {
     "revision": "a28537eb06aba1fe5756e0c60b270136",
@@ -76,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/media/consumer-prototypes.232bd13a.png"
   },
   {
-    "revision": "047f91c9d37931ccf3510e8127ab6f50",
-    "url": "/mercury/static/media/consumer-review.047f91c9.png"
+    "revision": "dd0d2a51f195dd9b5826d79264315a0f",
+    "url": "/mercury/static/media/consumer-review.dd0d2a51.png"
   },
   {
-    "revision": "9f0c4f435861901ef6d27ec921aa665f",
-    "url": "/mercury/static/media/consumer-toplist.9f0c4f43.png"
+    "revision": "7a0674e5bd0987937a8055326370bde8",
+    "url": "/mercury/static/media/consumer-toplist.7a0674e5.png"
   },
   {
     "revision": "fadf17018cabdf0e6e03956bb5a3e0ce",
@@ -92,12 +116,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/media/dataFlow.c5a75060.png"
   },
   {
+    "revision": "39ad8333afdd5cdf0042cfa4aa206a90",
+    "url": "/mercury/static/media/debit-profile-consumer.39ad8333.png"
+  },
+  {
+    "revision": "03169e4e7c52d2a189fb950903581b3c",
+    "url": "/mercury/static/media/debit-profile-merchant.03169e4e.png"
+  },
+  {
     "revision": "d24cecea5c4f05cf5bdc5466e305a3c8",
     "url": "/mercury/static/media/guerilla-research.d24cecea.png"
   },
   {
     "revision": "469211f45861a4cec9f72a86029aa9e9",
     "url": "/mercury/static/media/ideation-header.469211f4.png"
+  },
+  {
+    "revision": "96edaac43f82a7ac4d74e2992c96d81e",
+    "url": "/mercury/static/media/investing-risky.96edaac4.png"
+  },
+  {
+    "revision": "2598816ea11ea72ef310a98eb6671ee6",
+    "url": "/mercury/static/media/investing-safe.2598816e.png"
+  },
+  {
+    "revision": "485f67ed7bde5b711cdf03c13d1e5d74",
+    "url": "/mercury/static/media/kyle-grey.485f67ed.png"
+  },
+  {
+    "revision": "84fc526ff74aa8df5b4369ddc7675747",
+    "url": "/mercury/static/media/kyle.84fc526f.png"
+  },
+  {
+    "revision": "263f7e197b579f08c76f8b1c62651e22",
+    "url": "/mercury/static/media/lauren-grey.263f7e19.png"
+  },
+  {
+    "revision": "b285ed4d8b637e17b692cbc4b3611e4c",
+    "url": "/mercury/static/media/lauren.b285ed4d.png"
+  },
+  {
+    "revision": "9cdace5534e5dae1a17c209999adac76",
+    "url": "/mercury/static/media/local-buyer-consumer-risky.9cdace55.png"
+  },
+  {
+    "revision": "ca431a49a7c348b691a5c4261a0baaf7",
+    "url": "/mercury/static/media/local-buyer-consumer.ca431a49.png"
+  },
+  {
+    "revision": "5dbe60410a0db2783787b3ffa78715a4",
+    "url": "/mercury/static/media/logo.5dbe6041.png"
   },
   {
     "revision": "863ea121369c76143b476a52466d8386",
@@ -112,28 +180,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/media/merchant-app-subsection.639b6bfe.png"
   },
   {
-    "revision": "06481e1a287e96a3d4ae5f6e939526db",
-    "url": "/mercury/static/media/merchant-interview.06481e1a.png"
+    "revision": "f1b9f1e90587960c21fed57415b55ce1",
+    "url": "/mercury/static/media/merchant-app.f1b9f1e9.png"
   },
   {
-    "revision": "d04cc142a0a3ed1f4a47bb22f7b6651f",
-    "url": "/mercury/static/media/merchant-message.d04cc142.png"
+    "revision": "7e3447828efbb241ca7fd70901330822",
+    "url": "/mercury/static/media/merchant-interview.7e344782.png"
   },
   {
-    "revision": "10736966882a0ab384c4a494a508fd67",
-    "url": "/mercury/static/media/merchant-metric.10736966.png"
+    "revision": "cdcad2e6f88f39959f38ce850942ce9d",
+    "url": "/mercury/static/media/merchant-message.cdcad2e6.png"
   },
   {
-    "revision": "e3871d52b8f20de756dfc01eb1c1c788",
-    "url": "/mercury/static/media/merchant-new-deal.e3871d52.png"
+    "revision": "240c9abe6305b6ac641ec556d5bae37c",
+    "url": "/mercury/static/media/merchant-metric.240c9abe.png"
   },
   {
-    "revision": "2f1ec6e04685d56665912ebc6482f340",
-    "url": "/mercury/static/media/merchant-profile.2f1ec6e0.png"
+    "revision": "4790fd8a31215acaeedd492007c43f1d",
+    "url": "/mercury/static/media/merchant-new-deal.4790fd8a.png"
+  },
+  {
+    "revision": "f0ec62873852e8eba45094cacdaaf3c5",
+    "url": "/mercury/static/media/merchant-profile.f0ec6287.png"
   },
   {
     "revision": "4af3fe72a8bca4d245ca4a38ddaa24ec",
     "url": "/mercury/static/media/merchant-prototype.4af3fe72.png"
+  },
+  {
+    "revision": "9768e1c1b6eb0f442399c6280c935390",
+    "url": "/mercury/static/media/mia-grey.9768e1c1.png"
+  },
+  {
+    "revision": "ee3cf0fca544494d084a0084181857ac",
+    "url": "/mercury/static/media/mia.ee3cf0fc.png"
+  },
+  {
+    "revision": "667af8f5e6c79d0b04b402899c466e48",
+    "url": "/mercury/static/media/new-food-risky.667af8f5.png"
+  },
+  {
+    "revision": "285dbb7b1f82f9206bbf877deffbdbb6",
+    "url": "/mercury/static/media/new-food-safe.285dbb7b.png"
+  },
+  {
+    "revision": "655b9c2093b660e42e9bcc16499db168",
+    "url": "/mercury/static/media/niharika-grey.655b9c20.png"
+  },
+  {
+    "revision": "34c0edb6fbe0e7bee185df72af6baa18",
+    "url": "/mercury/static/media/niharika.34c0edb6.png"
   },
   {
     "revision": "1c1d1db4baa4dd99c2cc63c6e7d155d8",
