@@ -40,25 +40,29 @@ function ResearchPage() {
             text: "Guerilla Research",
             imgSrc: guerillaResearch,
             alt: "Mia conducting guerilla research",
-            link: false
+            link: false,
+            description:"We conducted guerilla research in the form of semi-structured interviews."
         },
         {
             text: "Booth Interviews",
             imgSrc: boothInterview,                      //fix image
             alt: "Kyle conducting a booth interview",
-            link: false
+            link: false,
+            description:"We conudcted semi-structured interviews and TAP with existing CLO apps."
         },
         {
             text: "Superuser Interviews",
             imgSrc: superuserConsumer,                      //fix image
             alt: "Laptop with merchant application open and mobile screen with consumer app open",
-            link: false
+            link: false,
+            description:"We talked to individuals who used one or more CLO app for an extended period."
         },
         {
             text: "Surveys post on Social Media",
             imgSrc: surveys,                      //fix image
             alt: "Laptop with merchant application open and mobile screen with consumer app open",
-            link: false
+            link: false,
+            description:"The survey was posted on forums dedicated to saving money on Reddit and Facebook."
         }
     ];
 
@@ -67,13 +71,15 @@ function ResearchPage() {
             text: "Semi-Structure Interviews with Small Business Owners",
             imgSrc: semiStructure,                       //fix image
             alt: "Owner of restaurant being interviewed",
-            link: false
+            link: false,
+            description: "We targeted a wide variety of businesses, including restaurants, a shoe care, a toy store, etc."
         },
         {
             text: "Power Merchant Interview",
             imgSrc: superuserMerchant,                      //fix image
             alt: "Kyle conducting a booth interview", //fix alt
-            link: false
+            link: false,
+            description: "We conducted a semi-structed interview with a merchant that is an expert in marketing."
         }
     ];
 
@@ -103,6 +109,7 @@ function ResearchPage() {
                 imgSrc={headerImg}
                 color="black"
                 title="Research"
+                subtitle="For this project we delved deep into researching not only our stakeholders but the complex world of CLO’s to better understand how we could improve them."
             />
 
             <SectionHeaderComponent
