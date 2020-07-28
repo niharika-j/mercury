@@ -8,10 +8,10 @@ class ListComponent extends React.Component {
     state = {
         title: "",          // Title of list; value is a string
         subtitle: "",       // Subtitle of list; value is a string
-        list: null,         // Array of object 
-                            // {    text: string, 
-                            //      imgSrc: img object, 
-                            //      alt: alternate text string for image for accessibility, link: boolean value (true/false)- 
+        list: null,         // Array of object
+                            // {    text: string,
+                            //      imgSrc: img object,
+                            //      alt: alternate text string for image for accessibility, link: boolean value (true/false)-
                             //           true if 'Learn more' link is present, else false,
                             //      url: URL path for link,
                             //      linkText: String- text of the link
@@ -29,13 +29,13 @@ class ListComponent extends React.Component {
         const bg = this.props.bg;
         const nCol = this.props.list.length;
         this.setState({title: title, subtitle: subtitle, list: list, forSection: forSection, bg: bg, nCol: nCol});
-    }   
+    }
 
     render() {
         let colWidthMd = 10;
         let colWidthSm = 10;
         let colWidthXs = 10;
-        
+
         if(this.state.nCol){
             switch(this.state.nCol) {
                 case 4: colWidthMd = 2; colWidthSm = 5; colWidthXs = 10; break;
@@ -53,7 +53,7 @@ class ListComponent extends React.Component {
                     </Row>
                     <Row className="justify-content-center">
                         {this.state.list?
-                            this.state.list.map((listObj, index) => 
+                            this.state.list.map((listObj, index) =>
                                 (<Col key={`list-${this.state.forSection}-${index}`} md={colWidthMd} sm={colWidthSm} xs={colWidthXs} className="list-col">
                                     <div className="list-image">
                                         <img src={listObj.imgSrc} alt={listObj.alt} />
