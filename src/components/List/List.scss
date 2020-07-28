@@ -11,6 +11,7 @@
         .list-header-title {
             @include font-size(1.3rem); //rfs
             font-weight: 600;
+            padding-bottom: 2rem;
         }
         .list-header-subtitle {
             font-size: 1rem;
