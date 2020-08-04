@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64cb79b32ebc70a8dd3c0f96f102116c",
+    "revision": "49378c86e0eca6d4d262fd0312c937dc",
     "url": "/mercury/index.html"
   },
   {
-    "revision": "57197a87e93de78a322e",
-    "url": "/mercury/static/css/main.8ad1215c.chunk.css"
+    "revision": "1c93a907e907fd625de2",
+    "url": "/mercury/static/css/main.d3398c82.chunk.css"
   },
   {
     "revision": "2d161a2ea9574e3d6d97",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/js/2.a44a5a1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57197a87e93de78a322e",
-    "url": "/mercury/static/js/main.ae476b05.chunk.js"
+    "revision": "1c93a907e907fd625de2",
+    "url": "/mercury/static/js/main.bebfe7a4.chunk.js"
   },
   {
     "revision": "286119e22ce58935518b",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/media/clo-section-header.9b1fbdf5.png"
   },
   {
-    "revision": "4d5312d9dad39eaf1ae7f55ba422e8bd",
-    "url": "/mercury/static/media/consumer-app-subsection.4d5312d9.png"
+    "revision": "a8e1e97c2c9f2a86fbcf03bf0ba02dd6",
+    "url": "/mercury/static/media/consumer-app-subsection.a8e1e97c.png"
   },
   {
     "revision": "4e38c58e5b2c4bef874d9bbbd7e28f73",
@@ -176,8 +176,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mercury/static/media/mashup.eae16479.png"
   },
   {
-    "revision": "639b6bfe069a3b537ba154e689bfd9cd",
-    "url": "/mercury/static/media/merchant-app-subsection.639b6bfe.png"
+    "revision": "037f4fbc96fe5ff697942afbdfffed39",
+    "url": "/mercury/static/media/merchant-app-subsection.037f4fbc.png"
   },
   {
     "revision": "f1b9f1e90587960c21fed57415b55ce1",

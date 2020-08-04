@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mercury/static/css/main.8ad1215c.chunk.css",
-    "main.js": "/mercury/static/js/main.ae476b05.chunk.js",
-    "main.js.map": "/mercury/static/js/main.ae476b05.chunk.js.map",
+    "main.css": "/mercury/static/css/main.d3398c82.chunk.css",
+    "main.js": "/mercury/static/js/main.bebfe7a4.chunk.js",
+    "main.js.map": "/mercury/static/js/main.bebfe7a4.chunk.js.map",
     "runtime-main.js": "/mercury/static/js/runtime-main.983c2cbc.js",
     "runtime-main.js.map": "/mercury/static/js/runtime-main.983c2cbc.js.map",
     "static/js/2.a44a5a1d.chunk.js": "/mercury/static/js/2.a44a5a1d.chunk.js",
     "static/js/2.a44a5a1d.chunk.js.map": "/mercury/static/js/2.a44a5a1d.chunk.js.map",
     "index.html": "/mercury/index.html",
-    "precache-manifest.7e004534557df74f92e753d7530f10ff.js": "/mercury/precache-manifest.7e004534557df74f92e753d7530f10ff.js",
+    "precache-manifest.16f514971b552a783a48b50821399b61.js": "/mercury/precache-manifest.16f514971b552a783a48b50821399b61.js",
     "service-worker.js": "/mercury/service-worker.js",
-    "static/css/main.8ad1215c.chunk.css.map": "/mercury/static/css/main.8ad1215c.chunk.css.map",
+    "static/css/main.d3398c82.chunk.css.map": "/mercury/static/css/main.d3398c82.chunk.css.map",
     "static/js/2.a44a5a1d.chunk.js.LICENSE.txt": "/mercury/static/js/2.a44a5a1d.chunk.js.LICENSE.txt",
     "static/media/All-in-one-wallet-1.png": "/mercury/static/media/All-in-one-wallet-1.5f0abcb7.png",
     "static/media/All-in-one-wallet-2.png": "/mercury/static/media/All-in-one-wallet-2.ec7c20b3.png",
@@ -21,7 +21,7 @@
     "static/media/clo-bank-app.png": "/mercury/static/media/clo-bank-app.5fb66176.png",
     "static/media/clo-publisher-app.png": "/mercury/static/media/clo-publisher-app.1055cfa5.png",
     "static/media/clo-section-header.png": "/mercury/static/media/clo-section-header.9b1fbdf5.png",
-    "static/media/consumer-app-subsection.png": "/mercury/static/media/consumer-app-subsection.4d5312d9.png",
+    "static/media/consumer-app-subsection.png": "/mercury/static/media/consumer-app-subsection.a8e1e97c.png",
     "static/media/consumer-app.png": "/mercury/static/media/consumer-app.4e38c58e.png",
     "static/media/consumer-deal.png": "/mercury/static/media/consumer-deal.b5a97483.png",
     "static/media/consumer-feed.png": "/mercury/static/media/consumer-feed.c96511c1.png",
@@ -50,7 +50,7 @@
     "static/media/logo.png": "/mercury/static/media/logo.5dbe6041.png",
     "static/media/marketsize.png": "/mercury/static/media/marketsize.863ea121.png",
     "static/media/mashup.png": "/mercury/static/media/mashup.eae16479.png",
-    "static/media/merchant-app-subsection.png": "/mercury/static/media/merchant-app-subsection.639b6bfe.png",
+    "static/media/merchant-app-subsection.png": "/mercury/static/media/merchant-app-subsection.037f4fbc.png",
     "static/media/merchant-app.png": "/mercury/static/media/merchant-app.f1b9f1e9.png",
     "static/media/merchant-interview.png": "/mercury/static/media/merchant-interview.7e344782.png",
     "static/media/merchant-message.png": "/mercury/static/media/merchant-message.cdcad2e6.png",
@@ -91,7 +91,7 @@
   "entrypoints": [
     "static/js/runtime-main.983c2cbc.js",
     "static/js/2.a44a5a1d.chunk.js",
-    "static/css/main.8ad1215c.chunk.css",
-    "static/js/main.ae476b05.chunk.js"
+    "static/css/main.d3398c82.chunk.css",
+    "static/js/main.bebfe7a4.chunk.js"
   ]
 }
