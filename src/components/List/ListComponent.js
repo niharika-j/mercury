@@ -49,7 +49,7 @@ class ListComponent extends React.Component {
                 <Container fluid>
                     <Row className="list-header-text">
                         <Col xs={{span: 10, offset: 1}} className="list-header-title">{this.state.title}</Col>
-                        <Col xs={{span: 10, offset: 1}} className="list-header-subtitle">{this.state.subtitle}</Col>
+                        <Col xs={{span: 6, offset: 3}} className="list-header-subtitle">{this.state.subtitle}</Col>
                     </Row>
                     <Row className="justify-content-center">
                         {this.state.list?
