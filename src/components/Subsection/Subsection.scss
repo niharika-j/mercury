@@ -3,7 +3,7 @@
 @import "~rfs/scss";
 
 .subsection-header-section {
-    padding: 0;
+    padding: 2rem 0;
     .subsection-header-title {
         @include font-size(1.3rem); //rfs
         font-weight: 600;

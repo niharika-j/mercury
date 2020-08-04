@@ -41,7 +41,7 @@ class PhotoGalleryComponent extends React.Component {
                             <Col className="modal-profile-img" md={4} xs={10}>
                                 <img src={memberObj.imgSrcColor} alt={memberObj.name} />
                             </Col>
-                            <Col xs={10} className="modal-member-content">
+                            <Col xs={10} md={7} className="modal-member-content">
                                 <div className="modal-member-name">
                                     {memberObj.name}
                                 </div>

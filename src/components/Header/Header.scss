@@ -30,6 +30,7 @@
 //xs (mobile)
 @media only screen and (max-width: $xs_max) {
     .header {
+        padding-top: 2rem;
         .header-text {
             padding-left: $col_width; //_responsive.scss
             padding-right: $col_width; //_responsive.scss

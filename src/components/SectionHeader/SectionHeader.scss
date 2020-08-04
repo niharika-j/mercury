@@ -3,6 +3,7 @@
 @import "~rfs/scss";
 
 .section-header-section {
+    padding: 4rem 0;
     .section-header-title {
         @include font-size(2rem); //rfs
         font-weight: 800;
@@ -27,7 +28,6 @@
         .section-header-title {
             padding-left: $col_width; //_responsive.scss
             padding-right: $col_width; //_responsive.scss
-            padding-top: 1rem;
         }
         .section-header-content {
             padding-left: $col_width; //_responsive.scss

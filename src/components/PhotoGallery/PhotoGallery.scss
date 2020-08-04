@@ -67,10 +67,50 @@
 
 /***** RESPONSIVE MEDIA QUERIES *****/
 
-//xs (mobile)
+//sm (tablet)
 @media only screen and (max-width: $sm_max) {
     #photo-gallery-section {
         .team-member {
+            .member-name {
+                font-size: 0.8rem;
+                bottom: 1.5rem;
+            }
+            .member-title {
+                font-size: 0.6rem;
+                bottom: 0.8rem;
+            }
+        }
+    }
+    .modal-content {
+        .modal-body {
+            padding: 0 2rem 2rem 2rem;
+            .modal-profile-img {
+                width: 100%;
+            }
+            .modal-member-content{
+                margin-left: 1rem;
+                .modal-member-name {
+                    font-size: 1rem;
+                }
+                .modal-member-title {
+                    font-size: 0.8rem;
+                }
+                .modal-member-description {
+                    font-size: 0.8rem;
+                }
+            }
+    
+        }
+    }
+    .custom-modal-size {
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: $xs_max) {
+    #photo-gallery-section {
+        .team-member {
+            text-align: center;
             .member-name {
                 font-size: 1rem;
             }
@@ -81,10 +121,10 @@
     }
     .modal-content {
         .modal-body {
-            padding: 0 2rem 2rem 2rem;
+            padding: 0 1rem 1rem 1rem;
             text-align: center;
             .modal-profile-img {
-                width: 100%;
+                width: 90%;
             }
             .modal-member-content{
                 margin-left: 0;
@@ -100,5 +140,8 @@
             }
     
         }
+    }
+    .custom-modal-size {
+        max-width: 100vw;
     }
 }
