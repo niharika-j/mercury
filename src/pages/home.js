@@ -16,8 +16,8 @@ import projectApproachIdeatingPrototyping from '../assets/images/home/project-id
 import projectFinalProduct from '../assets/images/home/project-final-product.png';
 
 function HomePage() {
-    let consumerAppList = ["Dedicated to local merhcants so they don't have to compete with chains", "Offers unique metrics through the combination of CLO and POS data", "Enables merchants to market themselves in a more targeted manner", "Merchants have full control over deals being offered"];
-    let merchantAppList = ["Simpler onboarding through the PoS", "Deals are money saved on purchase as opposed to cashback", "Allows users to send and receive deals from friends", "Enables a closer connection with merchants"];
+    let merchantAppList = ["Dedicated to local merchants so they don't have to compete with chains", "Offers unique metrics through the combination of CLO and POS data", "Enables merchants to market themselves in a more targeted manner", "Merchants have full control over deals being offered"];
+    let consumerAppList = ["Simpler onboarding through the PoS", "Deals are money saved on purchase as opposed to cashback", "Allows users to send and receive deals from friends", "Enables a closer connection with merchants"];
 
     let approachList = [
         {
